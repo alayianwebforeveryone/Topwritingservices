@@ -16,13 +16,18 @@ body{
 .header{
   background: var(--b-bgc);
 }
+.nav-item:hover{
+  border-bottom: 5px solid #5F1E7E ;
 
+}
 
 
 #try-btn{
    background-color: #0e7bb9;
 }
-
+.register-btn:hover{
+  background-color: white;
+}
 .same-btn{
   background-color: var(--btn-color);
 }
@@ -40,7 +45,9 @@ body{
   right: 18%;
   border-radius: 40px;
   width: 20%;
-  
+  position: absolute;
+  top: 32%;
+  right: 20%;
 }
 
 .banner-text{
@@ -87,6 +94,9 @@ body{
 .order-btn{
   line-height: 12px;
   font-size: 12px;
+}
+.btn-bg{
+  background-color: hwb(278 11% 16%);
 }
 
 /* ==================================================Companies=========================================================== */
@@ -231,9 +241,6 @@ background: linear-gradient(#76017C, #226F87, #69BDEC);
   /* margin: 0 10px; */
 }
 
-.n-circle h3{
-  /* padding-left: 50px; */
-}
 
 
 .hr-line {
